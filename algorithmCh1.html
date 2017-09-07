@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Algorithm Challenges</title>
+		<script>
+
+// 		page 16 
+
+// 		function Swap(){
+// 		var myName = Hanh;
+// 			var myNumber = 42; 
+
+// 		var temp = myName;
+// 		MyName = MyNumber;
+// 		myNumber = temp;
+// 		}
+
+// 		function print(num){
+// 			for (var i = -52; i < 1067; i++){
+// 				console.log(i);
+// 			}
+// 		}
+
+// 		function mulitpleOfThree(){
+// 			for (var i = -300; i <= 0; i +=3){
+// 				if (i == -6 || i == -3){
+// 					continue;
+// 				}
+// 				console.log(i);
+// 			}
+// 		}
+
+// 		function integers(){
+// 			var i = 2000; 
+// 			while ( i < 5280){
+// 				console.log(i);
+// 				i++;
+// 			}
+// 		}
+
+// 		function beCheerful(){
+// 			for (var i = 1; i <99; i++){
+// 				console.log('Good Morning');
+// 			}
+// 		}
+
+// 		function birthday(){
+// 			if (month == 12 && days = 25){
+// 				console.log("It's my birthday");
+// 			}
+// 			else
+// 			{
+// 				console.log ("It's just another day");
+// 			}
+// 		}
+
+// 		function leapYear(){
+// 			if (year % 4 == 0) && (year%100 != 0) || (year % 400 == 0){
+// 				console.log ('It is leap year')
+// 			}
+// 			else
+// 			{console.log('It is not learp year')
+// 		}
+// 		}
+
+// 		function printCount();
+// 		for (var i = 512; i < 4096; i++){
+// 			if (i % 5 == 0)
+// 			{
+// 				console.log(i);
+// 			}
+// 		}
+
+// 		function multiplesOfSix()
+// 		var i = 0; 
+// 		while (i < 60001){
+// 			i++; 			
+// 			if (i % 6 == 0);{ 
+	
+// 			console.log(i);
+// 		}
+// 	}
+
+// 	Counting, Dojo Way
+// 		for (var i = 1; i < 101; i++){
+// 			if (i % 5 == 0 && i % 10 !=0){
+// 				console.log("Coding");
+// 			}
+// 			if ( i % 10 == 0){
+// 				console.log("Dojo");
+// 			}
+// 		}
+// 		console.log(i);
+
+// 		function whatDoYouKnow(incoming){
+// 			var sum = 0;
+// 			for (var i = 0; i <10 ; i++){
+// 				sum += i;	
+// 				}		
+			
+// 			return sum; 
+// 		}
+// 			console.log(whatDoYouKnow(4));
+
+
+// 		function oddIntegers(){
+// 			var sum = 0; 
+// 			for (var i = -300000; i <= 300000; i++){
+// 				if (i % 2 != 0){
+// 					sum  = sum + i;	
+// 				}
+// 			}
+
+// 				console.log(i);
+// 	}
+
+
+// 	var i = 2016; 
+// 	while(i > 0){				
+// 		if (i % 2 === 0){
+// 			console.log(i);			
+// 		};
+// 		i = i - 4;
+// 	}
+// }
+		
+// 	function flexCount (lowNum, highNum, mult){
+// 		for ( var i = highNum; i <lowNum; x -= mult){
+// 			console.log(i):
+// 		}
+// 	}
+		
+// 	The Final Countdown
+// 		var i = 5; 
+// 	while (i < 17){
+// 		i++;
+// 		if (i % 3 == 0){
+// 			if(i == 9){
+// 				continue;
+// 			}
+// 			console.log(i);
+
+		
+// 		}
+// 	}
+	
+// 	function finalCountdown (num1, num2, num3, num4){
+// 		while(num2 < num3){
+// 			num2++;
+// 			if (num2 % num1 == 0){
+// 				if(num2 == num4){
+// 					continue;
+// 				}
+// 				console.log(num2)
+// 			}
+
+// 		}
+// 	}
+
+
+	//page 20 Arrays Fundamentals 
+
+	// 1. Countdown 
+	// 	function Countdown(){
+	// 		var arr=[];
+	// 		for (var i = num; i >= 0; i --){
+	// 			arr.push(i);
+	// 		}
+	// 		console.log(arr);
+	// 		return arr
+	// 	}
+
+	// 2. Print and Return 
+	// 	function printReturn(){
+	// 		var arr = [2,3];
+	// 		for (var i = 0; i < arr.length; i++){
+	// 			console.log(arr[0]);
+	// 			return arr[1];
+	// 		}
+	// 	}
+
+	// 3. First Plus Length 
+	// 	function firstPlusLength(){
+	// 		return arr[0] + arr.length;
+	// 	}
+
+	// 4. Values Greater than Second
+// 		function greaterThan(){
+// 		var arr = [1,3,5,7,9,13];
+// 		var counter = 0;		
+// 		for (var i = 0; i < arr.length; i++){
+// 			if (arr[i] > arr[1]){	
+// 				counter++;
+// 				console.log(arr[x]);					
+// 			};
+// 		};
+// 			return counter;			
+// 		}
+
+// 	5. Values Greater than Second, Generalized 
+// 	var arr = [1,3,5,7,9,13];
+// 	var arr2 = [1] - arr[1] is undefined. 
+
+// 	function greatThanSecond(arr){		
+// 		var counter = 0;		
+// 		for (var i = 0; i < arr.length; i++){
+// 			if (arr[i] > arr[1]){	
+// 				counter++;
+// 				console.log(arr[x]);					
+// 			};
+// 		};
+// 			return counter;			
+// 		}
+
+// 	6. This Length, That Value
+// 	function lengthValue(num1, num2){
+// 		if(num1 == num2){
+// 			console.log('Jinx!');
+// 			return "Jinx!"
+// 		}else{
+// 			var arr=[];
+// 			for (var i = 0; i <= num2 ; i++){
+// 				arr.push(num2);
+// 			}
+// 		}
+// 		console.log(arr);
+// 	}
+	
+// 	7. Fit the First Value
+// 		function fitFirstValue(){
+// 			if (arr[0] > arr.length){
+// 				console.log("Too Big!")
+// 			} else if (arr[0]<arr.length){
+// 				console.log("Too Small!")
+// 			} else {console.log("Just right!")
+// 		}
+// 	}
+	
+// 	8. Fahrenheit to Celsius 
+// 		function FahrenheitToCelsius(fDegrees){
+// 		 	return (fDegrees - 32) * 5/9
+// 		}		
+		
+// 	9. Celsius to Fahrenheit
+// 	function celsiusToFahrenheit(cDegrees){
+// 		return (9/5 * cDegrees) + 32
+// 	}
+
+// 	// OPTIONAL
+// function celsiusToFahrenheitMATCH(cDegrees){
+//   for(var start = cDegrees; start >= 0; start--){
+//     fDegrees = (9/5 * start) + 32
+//     if(fDegrees === start){
+//       return true
+//     }
+//   }
+//   return false
+// }
+
+
+//page 22 Chapter 1 Fundamentals 
+
+	1. Bigger Size 
+		function biggerSize(arr){
+			var (i = 0; i < arr.length; i++){
+				if (arr[i] > 0){
+					arr[i]= "big";
+				};
+			};
+			return arr;
+		}
+
+
+	2. Print Low, Return high
+			function LowHigh(){
+				var min = arr[0];
+				var max = arr[0];
+				for (var i = 0; i < arr.length; i++){
+					if (arr[i] > max){
+						arr[i] = max
+					}
+					if (arr[i] < min){
+						arr[i] = min
+					}
+					console.log(min);
+					return max; 
+
+				}
+			}
+
+		
+		3. Print one, Return another
+			function OneAnother(){
+				console.log(arr[arr.length-2]);
+				for (var i = 0 ; i < arr.length; i++){			
+				if (arr[i] % 2 !== 0){
+				return arr[i];				
+				break;
+				}
+			}
+
+
+			function printOneReturnAnother(array){
+    if (array.length >= 2){
+        console.log(array[-2])
+    } else {
+        console.log("There is no second to last value!")
+    }
+    var foundOdd = false;
+    for (var x = 0; x < array.length; x++){
+        if (array[x] % 2 == 1){
+            foundOdd = array[x]
+            return foundOdd
+        }
+    }
+    if (foundOdd == false){
+        console.log("There are no odd values")
+        return false;
+    }
+}
+
+		4. Double Vision 
+			function doubleVision(arr){
+				var arr=[];
+				for (var i = 0; i < arr.length; i++){
+					arr[i] = arr[i]* arr[i];
+					arr.push(arr[i]);
+				}
+				return arr; 
+			}
+
+			function double(array){
+    var doubled = [];
+    for (var x = 0; x < array.length; x++){
+        doubled.push(array[x]*2);
+    }
+    return doubled;
+}
+
+		5. Count Positive 
+			function countPositive(){
+				var sum = 0;
+				for(var i = 0; i < arr.length; i++){
+					if (arr[i] > 0){
+						sum = sum + arr[i];
+					}
+					arr[arr.length-1] = sum;
+					return arr;
+				}
+			}
+
+						
+		6. Evens and Odds
+			function evensOdds(){
+				for (var i = 0; i < arr.length; i++){
+					if (arr[i] % 2 !== 0) && (arr[i +1] %2 !== 0) && (arr[i+2] %2 !== 0){
+						console.log('That is odd!');
+					}else if (arr[i] % 2 == 0) && (arr[i +1] %2 == 0) && (arr[i+2] %2 == 0){
+					console.log('Even more so!')
+				}
+
+			}
+
+
+				function evensAndOdds(array){
+    var oddCount = 0;
+    var evenCount = 0;
+    for (x = 0; x < array.length; x++){
+        if (array[x] % 2 == 1){
+            evenCount = 0;
+            oddCount++;
+            if (oddCount >= 3){
+                console.log("That's odd!");
+            }
+        } else {
+            evenCount++;
+            oddCount = 0;
+            if (evenCount >= 3){
+                console.log("Even more so!")
+            }
+        }
+    }
+}
+
+
+		7. Increment the Seconds 
+			function incrementSeconds(arr){
+				for (var i = 0; i < arr.length; i++){
+					if (arr[i] % 2 !== 0){
+						arr[i]= arr[i] + 1
+					}
+					console.log(arr);
+				}
+					return arr;
+				
+			}
+
+
+		8. Previous Lengths
+			function previousLengths(arr){
+				for (var i = 0 ; i < arr.length; i++){
+					if(arr[i] != number) && (arr[i] == 'string') {
+						arr[i] = arr.length-1-i
+					}
+					return arr;
+				}
+			}
+
+
+			function previousLengths(array){
+    //there is no previous index of the 0 index, so I guess I'll just not replace that one
+    for (x = array.length -1; x > 0; x--) {
+        
+        array[x] = array[x-1].length;
+    }
+}
+
+
+
+		9. Add Seven to Most 
+			function addSevenToMost(arr){
+				var arr = [1,3,5,7];
+				var arrNew = [];
+
+				for (var i = 1; i < arr.length; i++){
+					arrNew.push(arr[i] + 7; );
+				}
+				return arrNew;
+			}
+
+
+		10. Reverse Array
+			function reverseArray(arr){
+				for (var i = 0; i < arr.length/2; i++){
+					temp = arr[i];
+					arr[i] = arr[arr.length-1 - i];
+					arr[arr.length-1 - i]= temp;
+				}
+				return arr;
+			}
+
+			function reverse(arr){
+    for(var x = 0; x < (arr.length - 1)/2; x++){
+        var temp = arr[x];
+        arr[x] = arr[arr.length - (1 + x)];
+        arr[arr.length - (1 + x)] = temp;
+    }
+    return arr;
+}
+			
+		11. Outlook: Negative
+			function outlookNeg(newarr){
+			var arr = [ 1,-3, 5]
+			var newarr=[-1,-3,-5];
+			for (var i = 0; i < arr.length; i++){
+				if (arr[i] > 0){
+					arr[i] = arr[i] * -1;
+				} else { 
+            newarr.push(arr[x])
+				
+			}
+
+		}
+		return newarr;
+	}
+
+
+
+		12. Always Hungry 
+			function alwaysHungry(){
+				for (var i = 0 ; i < arr.length; i++){
+					if (arr[i] == 'food'){
+						console.log('yummy');
+					}else if (arr[i] !== 'food'{
+						console.log('Im hungry');
+					}
+
+				}
+			}
+
+
+			function alwaysHungry(arr){
+    		var foundFood = false;
+    		for (var x = 0; x < arr.length; x++){
+        		if (arr[x] == "food"){
+            	console.log("yummy");
+           	 foundFood = true;
+       		 }
+   				}
+			    if (foundFood == false){
+			        console.log("I'm hungry")
+			    }
+			}
+
+		13. Swap Toward the Center 
+			function swapCenter(){
+				for (var i = 0; i < arr.length/2; i++){
+					if(i == 1){
+						continue;
+					}					
+					temp = arr[i];
+					arr[i] = arr[arr.length-1 - i];
+					arr[arr.length-1 - i]= temp;
+				} 
+
+				return arr;
+			
+				}
+
+				function swapTowardCenter(arr){
+    for (x = 0; x < (arr.length / 2); x += 2){
+        var temp = arr[x];
+        arr[x] = arr[arr.length - (1 + x)];
+        arr[arr.length - (1 + x)] = temp;
+    }
+    return arr;
+}
+
+		14. Scale the Array 
+			function scaleArray(arr, num){
+				for (var i = 0; i < arr.length; i++){
+					arr[i] = arr[i] * num;
+				}
+				return arr;
+			}
+			
+
+
+
+
+		</script>
+	</head>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
